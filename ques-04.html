@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="04.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form action="#" method="post">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" minlength="6" required><br><br>
+            
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" minlength="6" required><br><br>
+            
+            <label for="birthdate">Birthdate:</label>
+            <input type="date" id="birthdate" name="birthdate" required><br><br>
+            
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br><br>
+            
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>

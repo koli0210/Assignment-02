@@ -1,0 +1,43 @@
+/* styles.css */
+body {
+    background-color: #bdddeb;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(220, 97, 175);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+input[type="text"], input[type="password"] {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4894ad;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
